@@ -1,0 +1,6 @@
+export default function q5() {
+  return <h2 className={`mb-3 text-2xl font-semibold`} style={{ whiteSpace: "pre-line" }}>
+  {"Hello customer, thank you for reaching out. My name is Graham, I'll be helping you with case 1234 regarding a redirect issue and indexing/scraping concerns. Sorry to hear you're having a difficult time with these items, I'm here to help! <br/> Unfortunately I can't make these changes on your behalf, but I'm happy to help guide you to success and answer questions you might have along the way. Have you had a chance to review our documentation concerning redirects here? (https://vercel.com/docs/edge-network/redirects) - provide example on how to redirect. <br/> Next, I see you're needing a hand with excluding this site from web crawlers/indexing/scraping. Please see our documentation here for a quick example on how to avoid this https://nextjs.org/learn/seo/crawling-and-indexing/robots-txt. You might use User-agent: * Disallow: / <br/> Please review these resources and let me know if you have further questions. If you'd like we can hop on a quick call to clear up any confusion. ".split("<br/>").join("\n")}
+  </h2>
+  ;
+}
