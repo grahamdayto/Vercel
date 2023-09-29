@@ -36,12 +36,24 @@ export default function Home() {
             <h3>Question 5 &rarr;</h3>
           </a>
 
-          <a href="/questions/customerResponse" className={styles.card}>
-            <h3>Customer Response &rarr;</h3>
+          <a href="/questions/customerResponse1" className={styles.card}>
+            <h3>Customer Response 1&rarr;</h3>
+          </a>
+
+          <a href="/questions/customerResponse2" className={styles.card}>
+            <h3>Customer Response 2&rarr;</h3>
+          </a>
+
+          <a href="/questions/customerResponse3" className={styles.card}>
+            <h3>Customer Response 3&rarr;</h3>
           </a>
 
           <a href="/questions/q9" className={styles.card}>
             <h3>Question 9 &rarr;</h3>
+          </a>
+
+          <a href="/questions/q10" className={styles.card}>
+            <h3>Question 10 &rarr;</h3>
           </a>
 
         </div>
