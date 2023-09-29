@@ -40,6 +40,10 @@ export default function Home() {
             <h3>Customer Response &rarr;</h3>
           </a>
 
+          <a href="/questions/q9" className={styles.card}>
+            <h3>Question 9 &rarr;</h3>
+          </a>
+
         </div>
       </main>
 
